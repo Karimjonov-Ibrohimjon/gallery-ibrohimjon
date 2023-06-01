@@ -1,0 +1,164 @@
+
+@font-face {
+  font-display: swap; 
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/libre-baskerville-v14-latin-regular.woff2") format("woff2"); 
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/libre-baskerville-v14-latin-700.woff2") format("woff2");
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0 
+}
+
+body{
+  font-family: "Libre Baskerville";
+  margin: 0 auto; 
+}
+
+.container{
+  padding: 0 40px;
+}
+
+.header-inner{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7D7D7D;
+}
+
+.header-line{
+  margin-bottom: 40px;
+  
+  color: #E5E5E5;
+}
+
+.section-inner{
+  display: grid;
+  grid-template: repeat(7, 200px) / repeat(4, 310px);
+  gap: 40px;
+  
+}
+
+.section-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 32px;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.box-text{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF
+}
+
+.section-box:nth-child(1){
+  background-image: url(/images/hero/firs.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(2){
+  grid-row: span 2;
+  background-image: url(/images/hero/second.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(3){
+  background-image: url(/images/hero/third.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(4){
+  grid-row: span 2;
+  background-image: url(/images/hero/four.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(5){
+  grid-row: span 2;
+  background-image: url(/images/hero/five.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(6){
+  background-image: url(/images/hero/six.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(7){
+  grid-row: span 3;
+  grid-column: 3 / 4;
+  grid-row: 2 / 5;
+  background-image: url(/images/hero/seven.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(8){
+  background-image: url(/images/hero/eight.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(9){
+  grid-row: span 3;
+  background-image: url(/images/hero/nine.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(10){
+  grid-row: span 2;
+  background-image: url(/images/hero/ten.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(11){
+  grid-row: span 2;
+  grid-column: 3 / 4;
+  background-image: url(/images/hero/el.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(12){
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+  background-image: url(/images/hero/twelw.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(13){
+  grid-column: 1 / 2;
+  background-image: url(/images/hero/thirteen.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(14){
+  grid-row: 6 / 8;
+  grid-column: 2 / 3;
+  background-image: url(/images/hero/fouteen.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(15){
+  background-image: url(/images/hero/eight.png);
+  background-repeat: no-repeat;
+}
+.section-box:nth-child(16){
+  grid-row: 5 / 8;
+  grid-column: 4 / 5;
+  background-image: url(/images/hero/last.png);
+  background-repeat: no-repeat;
+}
